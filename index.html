@@ -1,21 +1,48 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Basket Ball Score Board</title>
-</head>
-<body>
-    <div>
-        <div>
-            <h2>HOME</h2>
-            <div>
-                
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap"
+            rel="stylesheet"
+        />
+        <title>Basket Ball Score Board</title>
+    </head>
+    <body>
+        <div id="home">
+            <div class="home-board">
+                <h2 class="home-title">HOME</h2>
+                <div class="score-bg">
+                    <h2 class="score-value-home">0</h2>
+                </div>
+                <div class="score-points">
+                    <button onclick="addOneHome()" type="button">+1</button>
+                    <button onclick="addTwoHome()" type="button">+2</button>
+                    <button onclick="addThreeHome()" type="button">+3</button>
+                </div>
+            </div>
+            <div class="new-game">
+                <button onclick="newGame()" id="new-game-btn" type="button">
+                    New Game
+                </button>
+            </div>
+            <div class="home-board">
+                <h2 class="away-title">AWAY</h2>
+                <div class="score-bg">
+                    <h2 class="score-value-away">0</h2>
+                </div>
+                <div class="score-points">
+                    <button onclick="addOneAway()" type="button">+1</button>
+                    <button onclick="addTwoAway()" type="button">+2</button>
+                    <button onclick="addThreeAway()" type="button">+3</button>
+                </div>
             </div>
         </div>
-        <div>
-            <h2>AWAY</h2>
-        </div>
-    </div>
-</body>
+
+        <script src="script.js"></script>
+    </body>
 </html>

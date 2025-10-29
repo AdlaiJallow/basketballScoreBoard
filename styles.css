@@ -1,0 +1,77 @@
+
+
+#home{
+    background-color: #0D2758;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home-board{
+    width: 250px;
+}
+
+h2{
+    text-align: center;
+}
+
+.home-title, .away-title{
+    padding-top: 5px;
+    color: white;
+    font-size: 35px;
+}
+
+.score-bg{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    width: 35%;
+    height: 100%;
+    color: blue;
+    padding-top:1px;
+    text-align: center;
+}
+
+.score-value-home, .score-value-away{
+    font-size: 35px;
+    font-family: 'DSEG7 Classic', 'Digital-7', monospace;
+}
+
+.score-points{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+button{
+    width: 35px;
+    height: 45px;
+    margin-right: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: #0D2758;
+    border: 1px solid white;
+    color: white;
+}
+
+/*.new-game {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}*/
+
+#new-game-btn {
+    width: 100px;
+    font-family: "Happy Monkey", system-ui;
+    height: 30%;
+}
+
+#new-game-btn:hover{
+    background-color: #02c39a;
+}
